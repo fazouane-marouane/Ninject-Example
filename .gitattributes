@@ -1,0 +1,25 @@
+# Source files
+.gitattributes text eol=crlf
+.gitignore text eol=crlf
+*.md text eol=crlf
+*.sql text eol=crlf
+*.cs diff=csharp text eol=crlf
+*.resx diff=xml text eol=crlf
+*.svg diff=xml text eol=crlf
+*.xml diff=xml text eol=crlf
+*.xaml diff=xml text eol=crlf
+# Project files
+*.settings diff=xml text eol=crlf
+*.config diff=xml text eol=crlf
+*.csproj diff=xml text eol=crlf
+*.sln text eol=crlf
+# Scripts
+*.ps1 text eol=crlf
+*.cmd text eol=crlf
+# Binaries
+*.exe binary
+*.dll binary
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.ico binary
